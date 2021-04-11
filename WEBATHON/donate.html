@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/navbarstyle.css" class="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/850475f48d.js" crossorigin="anonymous"></script>
+    <title>19Care:Donate</title>
+    <style>
+        #money{
+            margin-top:3rem;
+            width:fit-content;
+            height: auto;
+            border-radius: 50%;
+            border: 2px solid rgb(131, 131, 138);
+            padding: 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+        #money:hover{
+            background-color: rgb(135, 231, 226);
+            transition: 0.1s ease-in-out;
+            border: 2px dashed rgb(135, 231, 226);
+        }
+        #money:hover img{
+            transform:scale(1.5);
+            transition: 0.3s ease-out;
+        }
+        #money img{
+            width:40px;
+            height:auto;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav style="font-family: 'Lora', serif;">
+        <ul>
+            <li><img src="./img/Logo.png" alt="" class="src" style="width:150px;height:auto;"></li>
+            <li><a  href="./index.html">Home</a></li>
+            <li><a href="./aboutus.html">About Us</a></li>
+            <li><a href="./ourwork.html">Our Work</a></li>
+            <li><a href="./partners.html">Partners</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#contactus">Contact Us</a></li>
+            <li><a class="active" href="./donate.html">Donate</a></li>
+          </ul>
+          
+    </nav>
+    <div class="container justify-content-center">
+        <div class="row justify-content-center text-center">
+            <div class="col-md-12 text-center"><button type="button" class="btn" id="money"><img src="./img/rupee.png" alt="" class="src">
+            </button></div>
+            
+        </div>
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Rules and Regulations</h2>
+        <ol>
+            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam temporibus est consequuntur ad aliquid cum nostrum ducimus illum exercitationem ex vel dolor, mollitia tenetur esse officia ratione labore laborum adipisci?</li>
+            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam temporibus est consequuntur ad aliquid cum nostrum ducimus illum exercitationem ex vel dolor, mollitia tenetur esse officia ratione labore laborum adipisci?</li>
+            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam temporibus est consequuntur ad aliquid cum nostrum ducimus illum exercitationem ex vel dolor, mollitia tenetur esse officia ratione labore laborum adipisci?</li>
+            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam temporibus est consequuntur ad aliquid cum nostrum ducimus illum exercitationem ex vel dolor, mollitia tenetur esse officia ratione labore laborum adipisci?</li>
+            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam temporibus est consequuntur ad aliquid cum nostrum ducimus illum exercitationem ex vel dolor, mollitia tenetur esse officia ratione labore laborum adipisci?</li>
+            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam temporibus est consequuntur ad aliquid cum nostrum ducimus illum exercitationem ex vel dolor, mollitia tenetur esse officia ratione labore laborum adipisci?</li>
+        </ol>
+        </div>
+        
+    </div>
+    </div>
+    <div class="modal fade" id="contactus" role="dialog">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+            <!-- <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Contact Details</h4>
+            </div> -->
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row text-center" style="border-bottom: 1px dashed black;">
+                        <div class="col-md-4"><i class="fas fa-phone-square-alt"></i> Contact:</div>
+                        <div class="col-md-8">+91 1234567787</div>
+                    </div>
+                    <div class="row text-center" style="border-bottom: 1px dashed black;">
+                        <div class="col-md-4"><i class="fas fa-envelope"></i> Email:</div>
+                        <div class="col-md-8">19care@groupmail.com</div>
+                    </div>
+                    <div class="row text-center" style="border-bottom: 1px dashed black;">
+                        <div class="col-md-4"><i class="fas fa-truck"></i>Delivery address:</div>
+                        <div class="col-md-8">19Care office, 22 Howard street, Kirlinstangrad </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fas fa-times-circle"></i> Close</button>
+            </div>
+            </div>
+        </div>
+    </div>
+        
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>
